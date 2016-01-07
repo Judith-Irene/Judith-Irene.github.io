@@ -7,7 +7,7 @@ body{
 }
 header{
     position: fixed;
-    z-index: 999;
+    z-index:1000;
 }
 .menu img{
     width:20%;
@@ -15,7 +15,7 @@ header{
 .navbar {
     margin-bottom: 0;
     background-color:#22BDA4;
-    z-index: 9999;
+    z-index:1000;
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
@@ -23,11 +23,13 @@ header{
     border-radius: 0;
 }
 .navbar-brand {
-    padding: 15px 4px;
+    padding: 15px;
     font-size: 17px;
+    font-family:"Oswald"
 }
 .nav>li>a {
-    padding: 15px 9px;
+    padding:15px;
+    font-family:"Oswald"; 
 }
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
@@ -54,16 +56,17 @@ header{
     color: #ffffff;
     height:500px;
     overflow: hidden;
-   /* background:black;*/
+    background:black;
 }
 .header video{
     width: 100%;
-    /*opacity: 0.3;*/
+    opacity: 0.3;*/
 }
 .header .content{
     height:500px;
     position: absolute;
     width: 100%;
+    z-index: 999;
 }
 
 .presentacion img{
@@ -82,7 +85,7 @@ header{
     margin-top:0px;
 }
 .content{
-        font-family: "Roboto";
+        font-family: "Oswald";
     }
 @media (max-width:1100px){
     .header{
@@ -141,26 +144,25 @@ header{
 }
 h2{
     color:#22BDA4;
-    font-family: 'Grover Chilis', cursive;
+    font-family: "Oswald";
     font-weight:normal;
-    padding-bottom:2%;
 }
-h4{
-    font-family: "roboto"
+.favoritos{
+    padding-top:2%;
 }
 .favoritos h4{
     color:#0E9983;
 }
 /*inicio del codigo de sobre mi*/
 .biografia{
-    font-family:Arial;
+    font-family:;
     font-size:16px;
     line-height: 30px;
     text-align: justify;
 }
 .boton-carousel{
     padding: 15px 0 25px 0;
-
+    text-align: center;
 }
 .boton-carousel a{
     padding: 9px;
@@ -215,6 +217,13 @@ img.img{
 .footer{
     background:#34495e;
     color:#ffffff;
+    padding-bottom: 10px;
+}
+.pie-de-pagina ul{
+    padding-left: 0px;
+}
+.redes i{
+    font-size: 25px;
 }
 .footer a{
     color:#ffffff;
@@ -226,4 +235,9 @@ img.img{
 .redes li{
     list-style: none;
     display: inline-block;
+    margin: 0px 5px;
+}
+.footer2{
+    background:#2b3c4e;
+    color: #fff;
 }
