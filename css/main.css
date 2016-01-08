@@ -205,6 +205,10 @@ img.img{
 /*codigo de portafolio*/
 .portafolio{
     background: url("../images/background/b.png") center center;
+    padding: 20px 0px;
+}
+.portafolio h2{
+    padding-bottom: 10px;
 }
 .portafolio .thumbnail{
     background: url("../images/background/b.png") center center;
